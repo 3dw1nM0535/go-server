@@ -7,6 +7,7 @@ import (
 	"net/http"
 )
 
+// Page structure
 type Page struct {
 	Title string
 	Body  []byte
